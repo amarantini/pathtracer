@@ -1,0 +1,3 @@
+/Users/qiruhu/cs190i/CS190I_HW2/build/CMakeFiles/rebuild_cache.dir
+/Users/qiruhu/cs190i/CS190I_HW2/build/CMakeFiles/edit_cache.dir
+/Users/qiruhu/cs190i/CS190I_HW2/build/CMakeFiles/RayTracing.dir

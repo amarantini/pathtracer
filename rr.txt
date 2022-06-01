@@ -1,0 +1,23 @@
+//1.urd_1
+    // unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    // static std::default_random_engine generator (seed);
+    // std::uniform_real_distribution<double> distribution(0.0,1.0);
+    // double ksi = distribution(generator);
+    //2.urd_2
+    // std::random_device rd;
+    // std::mt19937::result_type seed = rd() ^ (
+    //         (std::mt19937::result_type)
+    //         std::chrono::duration_cast<std::chrono::seconds>(
+    //             std::chrono::system_clock::now().time_since_epoch()
+    //             ).count() +
+    //         (std::mt19937::result_type)
+    //         std::chrono::duration_cast<std::chrono::microseconds>(
+    //             std::chrono::high_resolution_clock::now().time_since_epoch()
+    //             ).count() );
+    // std::mt19937 generator(seed);
+    // std::uniform_real_distribution<double> distribution(0.0,1.0);
+    // double ksi = distribution(generator);
+    //3. rand
+    // srand(time(0));
+    // double ksi = rand()*1.0/RAND_MAX;
+    //4. pcg
